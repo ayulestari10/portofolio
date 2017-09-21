@@ -4,42 +4,49 @@
 		<title>Portfolio</title>
 		<meta charset="utf-8">
 		<meta name="viewport" content="width=device-width, initial-scale=1">
+
 		<!-- BOOTSTRAP -->
-		<link rel="stylesheet" type="text/css" href="Other/css/bootstrap.css">
-		<link rel="stylesheet" type="text/css" href="Other/css/bootstrap.min.css">
-		<script type="text/javascript" src="Other/js/jquery.min.js"></script>
-		<script type="text/javascript" src="Other/js/bootstrap.js"></script>
-		<script type="text/javascript" src="Other/js/bootstrap.min.js"></script>
+		<link rel="stylesheet" type="text/css" href="assets/css/bootstrap.css">
+
+		<link rel="stylesheet" type="text/css" href="assets/css/bootstrap.min.css">
+
+		<script type="text/javascript" src="assets/js/jquery.min.js"></script>
+
+		<script type="text/javascript" src="assets/js/bootstrap.js"></script>
+		<script type="text/javascript" src="assets/js/bootstrap.min.js"></script>
 		<!-- BOOTSTRAP -->
 
-		<!-- style & JS -->
-		<link rel="stylesheet" type="text/css" href="style.css">
-		<link rel="stylesheet" type="text/css" href="other/font-awesome/css/font-awesome.min.css">
+		<!-- font -->
+		<link rel="stylesheet" type="text/css" href="assets/fonts/font-awesome/css/font-awesome.min.css">
+
+		<!-- custom style & JS -->
+		<link rel="stylesheet" type="text/css" href="style.css"> 
 		<link rel="stylesheet" type="text/css" href="jav.js">
 		<!-- style & JS -->
 	</head>
-	<body>
-		<nav class="navbar navbar-inverse navbar-fixed-top" id="mainnav">
-			<div class="container">
-				<div class="navbar-header">
-					<a class="navbar-brand" href="#">Dazzle</a>
 
-					<button type="button" class="navbar-toggle collapsed button" data-toggle="collapse" data-target="#NavbarResponsive" aria-controls="NavbarResponsive" aria-expanded="false" aria-label="Toggle navigation">Menu
-					<i class="fa fa-bars"></i>
-					</button>					
-				</div>
+	<body id="page-top">
+		<nav class="navbar navbar-expand-lg navbar-light fixed-top" id="mainnav">
+
+			<div class="container">
+				<a class="navbar-brand" href="#page-top">Dazzle</a>
+
+				<button type="button" class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#NavbarResponsive" aria-controls="NavbarResponsive" aria-expanded="false" aria-label="Toggle navigation">Menu
+				<i class="fa fa-bars"></i>
+				</button>					
+				
 				
 				<div class="collapse navbar-collapse" id="NavbarResponsive">
-					<ul class="nav navbar-nav navbar-right">
+					<ul class="navbar-nav ml-auto">
 						<li class="nav-item">
-							<a href="#tabhome"><i class="glyphicon glyphicon-home"></i> Home</a>
-						</li>
+							<a  class="nav-link"
+							href="#tababout"> About</a></li>
 						<li class="nav-item">
-							<a href="#tababout"><i class="glyphicon glyphicon-user"></i> About</a></li>
+							<a  class="nav-link"
+							href="#tabportfolio">Portfolio</a></li>
 						<li class="nav-item">
-							<a href="#tabportfolio"><i class="glyphicon glyphicon-briefcase"></i> Portfolio</a></li>
-						<li class="nav-item">
-							<a href="#tabcontact"><i class="glyphicon glyphicon-phone-alt"></i> Contact</a>
+							<a  class="nav-link" 
+							href="#tabcontact"> Contact</a>
 						</li>
 					</ul>
 				</div>
@@ -49,9 +56,9 @@
 		<!-- HEADER -->
 		<div class="section" id="tabhome">
 			<div class="container">
-				<img class="img-fluid" src="img/dazzle.png" alt="">
+				<img class="img-fluid" src="assets/IMG/logo/logo.png" alt="">
 				<hr class="star-light">
-				<span class="txtdec">Informatics Engineering - Sriwijaya University</span>					
+				<span class="txtdec">WELCOME TO DAZZLE</span>					
 			</div>
 		</div>
 
@@ -83,8 +90,8 @@
 		        <h2 class="text-center" id="tcontact">CONTACT US</h2>
 		        <hr class="star-primary">
 		        <div class="row">
-		          <div class="col-md-4 col-md-offset-4">
-		            <form name="sentMessage" id="contactForm">
+		          	<div class="col-md-5 col-md-offset-5 mx-auto">
+			            <form name="sentMessage" id="contactForm" novalidate>
 			              <div class="control-group">
 			                <div class="form-group floating-label-form-group controls">
 			                  <label>Name</label>
@@ -118,15 +125,14 @@
 			              <div class="form-group">
 			                <button type="submit" class="btn btn-success btn-lg" id="sendMessageButton">Send</button>
 			              </div>
-		            </form>
-		          </div>
+			            </form>
 		        </div>
 	      </div>
 		</div>
 
 		<!-- script boostrap -->
 		<script src="jav.js"></script>
-		<script src="Other/js/jquery.js"></script>
-		<script src="Other/bootstrap.min.jss"></script>
+		<script src="assets/js/jquery.js"></script>
+		<script src="assets/css/bootstrap.min.js"></script>
 	</body>
 </html>
