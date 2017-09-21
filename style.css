@@ -1,0 +1,155 @@
+body
+{
+  font-family: robot;
+}
+#mainnav
+{
+    font-family: 'Robot','Montserrat', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    font-weight: 700;
+    text-transform: uppercase;
+    border: none;
+    background: #2C3E50;
+} 
+#mainnav .navbar-brand
+{
+  font-size: 1.5 rem;
+  color : white;
+  margin-left: 30px;
+  font-family: 'Robot', 'Montserrat','sans-serif';
+}
+.nav-item,.button
+{
+  font-family: robot;
+}
+
+.button
+{
+  margin-right:40px;
+  color : white;
+  box-shadow: transparent;
+}
+.txtdec
+{
+  font-size: 30px;
+  font-weight: 300;
+  color : white;
+  font-family: 'Robot', 'Montserrat','sans-serif';
+  padding-top: 5px;
+}
+
+
+.section {
+  margin-bottom: 30px;
+}
+
+
+#tabhome { 
+  margin-top: 40px;
+  margin-bottom: 0;
+  text-align: center;
+  background-color: #18BC9C;
+  background-size: cover;
+}
+
+.img-fluid {
+  max-width: 100%;
+  height: auto;
+  padding-top :130px;
+  width : 420px;
+}
+
+
+#profile-picture {
+  padding-top: 10px;
+  margin: 0 auto;
+  
+  background-size: cover;
+  width: 150px;
+  height: 150px;
+  border-radius: 100%;
+}
+
+#description {
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+
+
+#about {
+  
+  background-size: cover;
+  padding-top: 60px;
+  padding-bottom: 60px;
+}
+
+#portfolio{
+  background-image: url(https://i.imgur.com/on9dIGi.jpg);
+  background-size: cover;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  color: #DDD;
+}
+
+#contact {
+  margin-bottom: 0;
+  color: #DDD;
+  padding-top: 15px;
+  padding-bottom: 45px;
+}
+#tcontact
+{
+  font-size: 50px;
+  font-weight: bold;
+}
+
+.form-group {
+  margin-bottom: 1rem;
+}
+
+.form-text {
+  display: block;
+  margin-top: 0.25rem;
+}
+.form-control
+{
+  
+}
+
+
+#contactform{
+  align : middle;
+}
+
+hr.star-light,
+hr.star-primary {
+  max-width: 450px;
+  margin: 25px auto 30px;
+  padding: 0;
+  text-align: center;
+  border: none;
+  border-top: solid 5px; }
+
+hr.star-light:after,
+hr.star-primary:after {
+  font-family: FontAwesome;
+  font-size: 2em;
+  position: relative;
+  top: -.8em;
+  display: inline-block;
+  padding: 0 0.25em;
+  content: '\f006'; }
+
+hr.star-light {
+  border-color: white; }
+
+hr.star-light:after {
+  color: white;
+  background-color: #18BC9C; }
+
+hr.star-primary {
+  border-color: #2C3E50; }
+
+hr.star-primary:after {
+  color: #2C3E50;
+  background-color: white; }
+
