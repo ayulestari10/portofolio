@@ -1,7 +1,11 @@
-  $(window).scroll(function() {
-    if ($("#mainNav").offset().top > 100) {
-      $("#mainNav").addClass("navbar-shrink");
-    } else {
-      $("#mainNav").removeClass("navbar-shrink");
-    }
-  });
+  jQuery(document).ready(function() {
+    jQuery(window).scroll(function() {
+      if ( jQuery(window).width() > 768) {
+        if (jQuery(window).scrollTop() >= 100) {
+            jQuery('#mainnav').css('padding', '0');
+             } else {
+            jQuery('#mainnav').css('padding', '20px 0');
+             }
+      }
+    });
+ });

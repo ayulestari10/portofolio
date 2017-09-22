@@ -1,21 +1,30 @@
 body
 {
-  font-family: robot;
+  font-family: 'robot','Montserrat', 'Helvetica Neue', 'Helvetica, Arial', 'sans-serif';
+  overflow-x: hidden;
 }
+
+
 #mainnav 
 {
-    font-family: 'robot' 'Montserrat', 'Helvetica Neue', Helvetica, Arial, sans-serif;
     font-weight: 700;
     text-transform: uppercase;
     border: none;
-    background: #008975;
+    background: rgb(0,137,117);
+    padding: 20px 0;
+    -webkit-transition: padding .5s;
+    -moz-transition: padding .5s;
+    -ms-transition: padding .5s;
+    -o-transition: padding .5s;
+    transition: padding .5s;
 }
 #mainnav a:focus {
     outline: none; 
 }
 #mainnav .navbar-brand {
-    font-size: 1.1rem;
-    color: white; 
+    font-size: 24px;
+    color: white;
+
 }
 #mainnav .navbar-brand.active, #mainnav .navbar-brand:active, #mainnav .navbar-brand:focus, #mainnav .navbar-brand:hover 
 {
@@ -31,7 +40,7 @@ body
 }
 #mainnav .navbar-nav li.nav-item a.nav-link:hover 
 {
-    color: #18BC9C;
+    background: rgb(0,137,117);
     outline: none; 
 }
 #mainnav .navbar-nav li.nav-item a.nav-link:active, #mainnav .navbar-nav li.nav-item a.nav-link:focus 
@@ -50,44 +59,6 @@ body
       color: white;
       border-color: #18BC9C;
       background-color: #18BC9C; 
-}
-
-@media (min-width: 992px) {
-  #mainNav 
-  {
-    padding-top: 25px;
-    padding-bottom: 25px;
-    -webkit-transition: padding-top 0.3s, padding-bottom 0.3s;
-    -moz-transition: padding-top 0.3s, padding-bottom 0.3s;
-    transition: padding-top 0.3s, padding-bottom 0.3s; 
-  }
-  #mainNav .navbar-brand 
-  {
-   font-size: 2em;
-   -webkit-transition: all 0.3s;
-   -moz-transition: all 0.3s;
-    transition: all 0.3s; 
-  }
-  #mainNav .navbar-nav > li.nav-item > a.nav-link.active 
-  {
-    color: white;
-    border-radius: 3px;
-    background: #18BC9C; 
-  }
-  #mainNav .navbar-nav > li.nav-item > a.nav-link.active:active, #mainNav .navbar-nav > li.nav-item > a.nav-link.active:focus, #mainNav .navbar-nav > li.nav-item > a.nav-link.active:hover 
-  {
-    color: white;
-    background: #18BC9C; 
-  }
-  #mainNav.navbar-shrink 
-  {
-    padding-top: 10px;
-    padding-bottom: 10px; 
-  }
-  #mainNav.navbar-shrink .navbar-brand 
-  {
-    font-size: 1.5em; 
-  } 
 }
 
 
@@ -155,13 +126,12 @@ body
 #tabcontact {
   background-size: cover;
   margin-bottom: 0;
-  padding-top: 65px;
-  padding-bottom: 45px;
+  padding-top: 65px; 
   background-image: url(assets/img/logo/pattern1.png);
 }
 #tcontact
 {
-  font-size: 50px;
+  font-size: 40px;
   font-weight: bold;
 }
 
@@ -210,10 +180,17 @@ hr.star-light:after {
   background-color: #18BC9C; }
 
 hr.star-primary {
-  border-color: #2C3E50; }
+  border-color: white; }
 
 hr.star-primary:after {
   color: #2C3E50;
-  background-color: white; 
+  background-color: rgb(234,226,218);
 }
 
+footer {
+  background: rgb(0,137,117);
+  text-align: center;
+  padding: 10px;
+  color : white;
+  /*you could also get rid of the .wrapper justify-content and use margin-top: auto*/
+}
