@@ -164,25 +164,25 @@
 		        <hr class="star-primary">
 		        <div class="row">
 		          	<div class="col-md-5 col-md-offset-5 mx-auto">
-			            <form name="sentMessage" id="contactForm" novalidate>
+			            <form name="sentMessage" id="contactForm" action="save_guest.php">
 			              <div class="control-group">
 			                <div class="form-group floating-label-form-group controls">
 			                  <label>Name</label>
-			                  <input class="form-control" id="name" type="text" placeholder="Name" required data-validation-required-message="Please enter your name.">
+			                  <input name="name" class="form-control" id="name" type="text" placeholder="Name" required data-validation-required-message="Please enter your name.">
 			                  <p class="help-block text-danger"></p>
 			                </div>
 			              </div>
 			              <div class="control-group">
 			                <div class="form-group floating-label-form-group controls">
 			                  <label>Email Address</label>
-			                  <input class="form-control" id="email" type="email" placeholder="Email Address" required data-validation-required-message="Please enter your email address.">
+			                  <input name="email" class="form-control" id="email" type="email" placeholder="Email Address" required data-validation-required-message="Please enter your email address.">
 			                  <p class="help-block text-danger"></p>
 			                </div>
 			              </div>
 			              <div class="control-group">
 			                <div class="form-group floating-label-form-group controls">
 			                  <label>Phone Number</label>
-			                  <input class="form-control" id="phone" type="tel" placeholder="Phone Number" required data-validation-required-message="Please enter your phone number.">
+			                  <input max="9999999999999" name ="nohp" class="form-control" id="phone" type="number" placeholder="Phone Number" required data-validation-required-message="Please enter your phone number.">
 			                  <p class="help-block text-danger"></p>
 			                </div>
 			              </div>
