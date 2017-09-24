@@ -1,8 +1,9 @@
 <?php 
-	$nama=htmlspecialchars($_POST['name']);
-	$email=htmlspecialchars($_POST['email']);
-	$hp=htmlspecialchars($_POST['nohp']);
-	$message=htmlspecialchars($_POST['message']);
+
+	$nama=$_POST['name'];
+	$nohp=$_POST['nohp'];
+	$email=$_POST['email'];
+	$message=$_POST['message'];
 
 	$host="localhost";
 	$usernameserver="root";
@@ -12,9 +13,9 @@
 	$koneksi=mysqli_connect($host,$usernameserver,$passwordserver,$database) or die("tidak bisa nyambung ke mysql");
 	if($koneksi)
 	{
-		$query="INSERT	INTO	mahasiswa VALUES ('$nim','$nohp','$email','hobby','$address','$nama') ";
+		$query="INSERT	INTO	contact VALUES ('$nama','$email','$nohp','$message') ";
 		$result=mysqli_query($koneksi,$query); 
-		include"tampil_bukutamu.php";
+		
 	}
 	
 
