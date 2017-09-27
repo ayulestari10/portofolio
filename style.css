@@ -352,7 +352,10 @@ footer {
     }
 
     .text {
-        white-space: nowrap; 
+        padding: 50px;
+        text-align: center;
+        width: 350px;
+        height: 220px;
         color: white;
         font-size: 20px;
         position: absolute;
@@ -384,6 +387,14 @@ footer {
 
     #tabportfolio div > .col-md-4 {
       margin: 2% 0% 2% 0%;
+    }
+
+    .text h5{
+      font-weight: bolder;
+    }
+
+    .text p{
+      font-size: 14px;
     }
 
     .buttonAbout {
