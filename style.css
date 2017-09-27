@@ -1,6 +1,6 @@
 body
 {
-  font-family: 'robot','Montserrat', 'Helvetica Neue', 'Helvetica, Arial', 'sans-serif';
+  font-family: 'calibri';
   overflow-x: hidden;
 }
 
@@ -67,7 +67,7 @@ body
   font-size: 40px;
   font-weight: 300;
   color : white;
-  font-family: 'Robot', 'Montserrat','sans-serif';
+  font-family: 'Roboto', sans-serif;
   padding-top: 0px;
 }
 
