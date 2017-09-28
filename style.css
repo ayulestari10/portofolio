@@ -278,10 +278,11 @@ footer {
 
 
 /*style aplikasi*/
-  #aplikasi{
+  #tabportfolio{
       margin-top: 5%;
       margin-bottom: 5%;
-      background: rgb(64,224,208);
+      /*background: rgb(64,224,208);*/
+      background: #18BC9C;
     }
     .foto_aplikasi{
       width: 350px;
@@ -364,8 +365,13 @@ footer {
 
     .tombol{
       margin-top: 170px;
-      margin-left: 130px;
+      margin-left: 150px;
       float: left;
+    }
+
+    .tombol:hover{
+      color: blue;
+      font-weight: bolder;
     }
 
     .title {
@@ -376,8 +382,8 @@ footer {
       padding: 2%;
     }
 
-    #aplikasi div > .col-md-4 {
-      margin: 3% 1% 3% 1%;
+    #tabportfolio div > .col-md-4 {
+      margin: 2% 0% 2% 0%;
     }
 
     .buttonAbout {

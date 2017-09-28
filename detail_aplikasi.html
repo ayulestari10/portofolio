@@ -3,16 +3,25 @@
 <head>
 	<meta charset="utf-8">
 	<title>Detail Aplikasi | Portfolio</title>
+	<!-- BOOTSTRAP -->
 	<link rel="stylesheet" type="text/css" href="assets/css/bootstrap.css">
-	<link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
-	<script type="text/javascript" src="assets/js/jquery.js"></script>
-	<script type="text/javascript" src="assets/js/bootstrap.js"></script>
+
+	<link rel="stylesheet" type="text/css" href="assets/css/bootstrap.min.css">
+	<!-- BOOTSTRAP -->
+
+	<!-- font -->
+	<link rel="stylesheet" type="text/css" href="assets/fonts/font-awesome/css/font-awesome.min.css">
+
+	<!-- custom style  -->
+	<link rel="stylesheet" type="text/css" href="style.css"> 
+	<link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+
+
 	<style type="text/css">
 		#detail_aplikasi{
 			padding: 5%;
 			margin-top: 5%;
-			margin-bottom: 5%;
-			background: rgb(64,224,208);
+			background: #18BC9C;
 		}
 
 		.foto_detail_apps{
@@ -24,44 +33,84 @@
 			width: 100%;
 			height: 100%;
 		}
-		.
+		
 		.title2 {
 			text-align: center;
 			font-family: cursive;
-			color: red;
 			font-weight: bolder;
 			padding: 2%;
 		}
 	</style>
 </head>
-<body>
-	<section id="detail_aplikasi">
-		<div class="container">
-			<div class="row title2">
-				<h1>MORE ABOUT ACHIEVEMENT</h1>
-			</div>
-			<div class="row">
-				<div class="col-md-7 foto_detail_apps">
-					<img src="assets/img/aplikasi/pudinglab.png">
+<body id="page-top">
+		<nav class="navbar navbar-expand-lg navbar-light fixed-top" id="mainnav">
+
+			<div class="container">
+				<a class="navbar-brand" href="#page-top">Dazzle</a>
+
+				<button type="button" class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#NavbarResponsive" aria-controls="NavbarResponsive" aria-expanded="false" aria-label="Toggle navigation">Menu
+				<i class="fa fa-bars"></i>
+				</button>					
+				
+				
+				<div class="collapse navbar-collapse" id="NavbarResponsive">
+					<ul class="navbar-nav ml-auto">
+						<li class="nav-item">
+							<a  class="nav-link"
+							href="#tababout"> About</a></li>
+						<li class="nav-item">
+							<a  class="nav-link"
+							href="#tabportfolio">Portfolio</a></li>
+						<li class="nav-item">
+							<a  class="nav-link" 
+							href="#tabcontact"> Contact</a>
+						</li>
+					</ul>
 				</div>
-				<div class="col-md-5">
-					<table class="table table-stripped">
-						<tbody>
-							<tr>
-								<th>Nama Aplikasi</th>
-								<td>PudingLab.id</td>
-							</tr>
-							<tr>
-								<th>Deskripsi</th>
-								<td>
-									<p style="text-align: justify;">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
-								</td>
-							</tr>
-						</tbody>
-					</table>
+			</div>
+		</nav>
+
+		<section id="detail_aplikasi">
+			<div class="container">
+				<h2 class="text-center">Portfolio</h2>			
+				<hr class="star-light">
+
+				<div class="row">
+					<div class="col-md-7 foto_detail_apps">
+						<img src="assets/img/aplikasi/pudinglab.png">
+					</div>
+					<div class="col-md-5">
+						<table class="table table-stripped">
+							<tbody>
+								<tr>
+									<th>Nama Aplikasi</th>
+									<td>PudingLab.id</td>
+								</tr>
+								<tr>
+									<th>Deskripsi</th>
+									<td>
+										<p style="text-align: justify;">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
+									</td>
+								</tr>
+							</tbody>
+						</table>
+					</div>
 				</div>
 			</div>
-		</div>
-	</section>
-</body>
+		</section>
+
+
+		<!-- Footer -->
+	    <footer class="footer">
+	        Copyright &copy; Dazzle 2017
+	    </footer>
+
+		<!-- jquery -->
+		
+		<script src="assets/js/jquery.js"></script>
+		<script src="assets/js/bootstrap.min.js"></script>
+
+		<!-- custom -->
+		<script src="assets/Owner/jav.js"></script>
+	</body>
 </html>
