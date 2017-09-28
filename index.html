@@ -1,28 +1,31 @@
 <!DOCTYPE html>
 <html>
 	<head>
-		<title>Portfolio</title>
-		<meta charset="utf-8">
-		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<title>PORTOFLIO</title>
+			<title>Portfolio</title>
+			<meta charset="utf-8">
+			<meta name="viewport" content="width=device-width, initial-scale=1">
 
-		<!-- BOOTSTRAP -->
-		<link rel="stylesheet" type="text/css" href="assets/css/bootstrap.css">
+			<!-- BOOTSTRAP -->
+			<link rel="stylesheet" type="text/css" href="assets/css/bootstrap.css">
 
-		<link rel="stylesheet" type="text/css" href="assets/css/bootstrap.min.css">
-		<!-- BOOTSTRAP -->
+			<link rel="stylesheet" type="text/css" href="assets/css/bootstrap.min.css">
+			<!-- BOOTSTRAP -->
 
-		<!-- font -->
-		<link rel="stylesheet" type="text/css" href="assets/fonts/font-awesome/css/font-awesome.min.css">
+			<!-- font -->
+			<link rel="stylesheet" type="text/css" href="assets/fonts/font-awesome/css/font-awesome.min.css">
 
-		<!-- custom style  -->
-		<link rel="stylesheet" type="text/css" href="style.css"> 
-		<link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
-		
+			<!-- custom style  -->
+			<link rel="stylesheet" type="text/css" href="style.css"> 
+
+			<link href="https://fonts.googleapis.com/css?family=Ubuntu" rel="stylesheet">
+
+
 	</head>
 
 	<body id="page-top">
+		<!-- NAVBAR PART -->
 		<nav class="navbar navbar-expand-lg navbar-light fixed-top" id="mainnav">
-
 			<div class="container">
 				<a class="navbar-brand" href="#page-top">Dazzle</a>
 
@@ -48,8 +51,8 @@
 			</div>
 		</nav>
 
-		<!-- HEADER -->
-		<div class="section" id="tabhome">
+		<!-- TABHOME PART -->
+		<div id="tabhome">
 			<div class="container">
 				<img class="img-fluid" src="assets/IMG/logo/logo.png" alt="">
 				<hr class="star-light">
@@ -57,17 +60,55 @@
 			</div>
 		</div>
 
+		<!-- tababout part -->
 		<div id="tababout">
-			<div class="container">
-					<h2 class="text-center">About</h2>
-					<hr class="star-primary">
-					<br><br><br><br><br><br>
-			</div>
-		</div >
+			<div class="container text-center">
+				<h2 class="text-center">ABOUT US</h2>
+				<hr class="star-primary">
 
+	            <div class="row">
+	                <div class="col-lg-4">
+	                  <img class="rounded-circle" src="assets/img/Foto/Achi.jpg" width="140" height="140">
+	                  <h3>Achi Aprilia A</h3>
+	                  <p>I am a girl who likes to imagine, experiment and create a world of its own. I love sweet foods like bread, donuts and ice cream.</p>
+	                  <p><a class="btn btn-secondary buttonAbout" href="detail_profile.html" role="button">View details &raquo;</a></p>
+	                </div>
+	                <div class="col-lg-4">
+	                  <img class="rounded-circle" src="assets/img/Foto/Azed.jpg" width="140" height="140">
+	                  <h3>Arizaldi</h3>
+	                  <p>I am a strange man who is looking for identity and purpose of life. I really like the field of graphic design, because it is my world.</p>
+	                  <p><a class="btn btn-secondary buttonAbout" href="detail_profile1.html" role="button">View details &raquo;</a></p>
+	                </div>
+	                <div class="col-lg-4">
+	                  <img class="rounded-circle" src="assets/img/Foto/Ayu.jpg" width="140" height="140">
+	                  <h3>Ayu Lestari</h3>
+	                  <p>I am a professional person if trusted in a job, spirit in everything including laziness. I don't care about people who like to know my life.</p>
+	                  <p><a class="btn btn-secondary buttonAbout" href="detail_profile2.html" role="button">View details &raquo;</a></p>
+	                </div>
+	            </div>
+
+	            <div class="row">
+	                <div class="col-lg-2"></div>
+	                <div class="col-lg-4">
+	                  <img class="rounded-circle" src="assets/img/Foto/Sholahul Fajri.jpg" width="140" height="140">
+	                  <h3>Sholahul Fajri</h3>
+	                  <p>I'm interested mobile programming, i have more skills in programming each Programming java,c++,c# and visual programming.</p>
+	                  <p><a class="btn btn-secondary buttonAbout" href="detail_profile3.html" role="button">View details &raquo;</a></p>
+	                </div>
+	                <div class="col-lg-4">
+	                  <img class="rounded-circle" src="assets/img/Foto/Sari Rahman.jpg" alt="Generic placeholder image" width="140" height="140">
+	                  <h3>Tri Kurnia Sari</h3>
+	                  <p>I am a good girl, forgiving, careless, energy saver. I really like matcha. I have a cute cat named Boy, I love my Boy so much.</p>
+	                  <p><a class="btn btn-secondary buttonAbout" href="detail_profile4.html" role="button">View details &raquo;</a></p>
+	                </div>
+	            </div>    
+        	</div>
+		</div>
+
+		<!-- tab portfolio part -->
 		<div id="tabportfolio">
 			<div class="container">
-				<h2 class="text-center">Portfolio</h2>			
+				<h2 class="text-center">Portfolio</h2>	
 				<hr class="star-light">
 
 				<div class="row">
@@ -227,6 +268,7 @@
 						    <button class="btn btn-default tombol">READ <i class="fa fa-chevron-circle-right"></i></button>
 						 </div>
 					</div>
+
 					<div class="col-md-4 foto_aplikasi right">
 						<img src="assets/img/aplikasi/warisan.jpg" alt="Aplikasi" class="image" style="border: 1px solid grey">
 						 <div class="overlay">
@@ -238,21 +280,31 @@
 						 </div>
 					</div>
 				</div>
-			</div>
-		</div>
 
-		<!-- Ongoing Project -->
-		<div id="tabOngoingProject">
-			<div class="container">
-				<div class="row">
-					<h2 class="text-center">On going project</h2>
+				<!-- Ongoing Project -->
+				<br><br>
+	      		<h2 class="text-center">On Going Project</h2>
+	      		<hr class="star-light">	
+
+				<div class="container">
+					<br><br>
+					<div class="row">
+						<div class="col-sm-7 left" id="description">
+							<h2 class="Title_Sentiment">Using N-gram for Sentiment Analysis</h2><br>
+				            <h4>Description</h4>
+				            <p class="deskripsi_singkat">Sentiment analysis is an important research area that identifies the people’s sentiment underlying a text. Sentiment analysis widely studied in data mining. After reviewing and studying the current research on sentiment analysis, the goal of the proposed method is to get the more effective results of sentiment analysis on comment. The aim of this project is to improve the performance to classify the comment with sentiment information. We use n gram for extracting the comment.</p>
+				            <p><a href="detail_project.html"> View Details <i class="fa fa-chevron-circle-right"></i></a></p>
+				         
+						</div>
+
+						<div class="col-sm-5" id="description">
+							<img src="assets/img/aplikasi/layanan.png" class="image" alt="Aplikasi" width="430" height="650">
+						</div>
+					</div>
 				</div>
-				<hr class="star-light">
 			</div>
-		</div>
-		<!--/Ongoing Project -->
-
-		<!-- contact section -->
+		
+		<!-- tabcontactpart -->
 		<div id="tabcontact">
 			<div class="container">
 		        <h2 class="text-center" id="tcontact">CONTACT US</h2>
@@ -260,43 +312,46 @@
 		        <div class="row">
 		          	<div class="col-md-5 col-md-offset-5 mx-auto">
 			            <form name="sentMessage" id="contactForm">
-			              <div class="control-group">
-			                <div class="form-group floating-label-form-group controls">
-			                  <label>Name</label>
-			                  <input name="name" class="form-control" id="name" type="text" placeholder="Name" required>
-			                  <p class="help-block text-danger"></p>
-			                </div>
-			              </div>
-			              <div class="control-group">
-			                <div class="form-group floating-label-form-group controls">
-			                  <label>Email Address</label>
-			                  <input name="email" class="form-control" id="email" type="email" placeholder="Email Address" required>
-			                  <p class="help-block text-danger"></p>
-			                </div>
-			              </div>
-			              <div class="control-group">
-			                <div class="form-group floating-label-form-group controls">
-			                  <label>Phone Number</label>
-			                  <input max="9999999999999" name ="nohp" class="form-control" id="phone" type="number" placeholder="Phone Number" required">
-			                  <p class="help-block text-danger"></p>
-			                </div>
-			              </div>
-			              <div class="control-group">
-			                <div class="form-group floating-label-form-group controls">
-			                  <label>Message</label>
-			                  <textarea class="form-control" name="message" id="message" rows="5" placeholder="Message" required></textarea>
-			                  <p class="help-block text-danger"></p>
-			                </div>
-			              </div>
-			              <br>
-			              <div id="success"></div>
-			              <div class="form-group">
-			                <button type="submit" class="btn btn-success btn-lg" id="sendMessageButton" href="index.html">Send</button>
-			              </div>
+				            <div class="control-group">
+				                <div class="form-group floating-label-form-group controls">
+					                <label>Name</label>
+					                <input name="name" class="form-control" id="name" type="text" placeholder="Name" required>
+					                <p class="help-block text-danger"></p>
+				                </div>
+				            </div>
+				             <div class="control-group">
+				                <div class="form-group floating-label-form-group controls">
+				                    <label>Email Address</label>
+				                    <input name="email" class="form-control" id="email" type="email" placeholder="Email Address" required>
+				                    <p class="help-block text-danger"></p>
+				                </div>
+				            </div>
+				            <div class="control-group">
+				                <div class="form-group floating-label-form-group controls">
+				                    <label>Phone Number</label>
+				                    <input max="9999999999999" name ="nohp" class="form-control" id="phone" type="number" placeholder="Phone Number" required">
+	  			                    <p class="help-block text-danger"></p>
+				                </div>
+				            </div>
+				            <div class="control-group">
+				                <div class="form-group floating-label-form-group controls">
+				                    <label>Message</label>
+				                    <textarea class="form-control" name="message" id="message" rows="5" placeholder="Message" required></textarea>
+				                   <p class="help-block text-danger"></p>
+				                </div>
+				            </div>
+				            <br>
+				            
+				            <div id="success"></div>
+				            
+				            <div class="form-group">
+				                <button type="submit" class="btn btn-success btn-lg" id="sendMessageButton" href="index.html">Send</button>
+				            </div>
 			            </form>
-			            <br><br><br>
-		        </div>
-	      </div>
+			        
+		        	</div>
+	      		</div>
+			</div>
 		</div>
 
 		<!-- Footer -->
@@ -309,7 +364,8 @@
 		<script src="assets/js/jquery.js"></script>
 		<script src="assets/js/bootstrap.min.js"></script>
 
-		<!-- custom -->
+		<!-- custom javascript-->
 		<script src="assets/Owner/jav.js"></script>
+
 	</body>
 </html>

@@ -1,6 +1,6 @@
 body
 {
-  font-family: 'calibri';
+  font-family: 'ubuntu', sans-serif;
   overflow-x: hidden;
 }
 
@@ -10,7 +10,7 @@ body
     font-weight: 700;
     text-transform: uppercase;
     border: none;
-    background: rgb(0,137,117);
+    background: transparent;
     padding: 20px 0;
     -webkit-transition: padding .5s;
     -moz-transition: padding .5s;
@@ -23,7 +23,7 @@ body
 }
 #mainnav .navbar-brand {
     font-size: 24px;
-    color: white;
+    color: #FBC02D;
 
 }
 #mainnav .navbar-brand.active, #mainnav .navbar-brand:active, #mainnav .navbar-brand:focus, #mainnav .navbar-brand:hover 
@@ -40,7 +40,7 @@ body
 }
 #mainnav .navbar-nav li.nav-item a.nav-link:hover 
 {
-    background: rgb(0,137,117);
+    background: white;
     outline: none; 
 }
 #mainnav .navbar-nav li.nav-item a.nav-link:active, #mainnav .navbar-nav li.nav-item a.nav-link:focus 
@@ -57,8 +57,8 @@ body
 #mainnav .navbar-toggler:focus, #mainnav .navbar-toggler:hover 
 {
       color: white;
-      background: rgb(0,137,117);
-      background: rgb(0,137,117);
+      background: transparent;
+      border-color: #FBC02D;
 }
 
 
@@ -78,11 +78,10 @@ body
 
 
 #tabhome { 
-  margin-top: 50px;
+  /* margin-top: 50px; */
   margin-bottom: 0;
   text-align: center;
-  background-color: #18BC9C;
-  /* background-image: url(assets/img/logo/Bg_hom.jpg); */
+  background-image: url(assets/img/logo/Bg_hom.jpg);
   background-size: cover;
   height: 850px;
   padding : 100px 0 0 0;
@@ -114,27 +113,21 @@ body
 
 #tababout {
   background-size: cover;
-  /* margin-top: 0; */
   background-image: url(assets/img/logo/pattern1.png);
-  /* padding-top: 45px;
-  padding-bottom: 30px; */
-  padding : 100px 0 0 0;
-  
+  padding-top : 70px;
+  padding-bottom: 40px;
 }
-
 #tabportfolio{
-  /* margin-top: 0; */
+  padding-top : 70px;
   background-size: cover;
-  padding : 100px 0 0 0;
   background-color: #18BC9C;
 }
 
 #tabcontact {
+  /* padding-top : 70px; */
   background-size: cover;
-  /* margin-bottom: 0; */
-  padding : 100px 0 0 0;
-  /* padding-top: 65px;  */
   background-image: url(assets/img/logo/pattern1.png);
+  height: 750px;
 }
 #tcontact
 {
@@ -269,7 +262,7 @@ hr.star-primary:after {
 
 footer {
   background: rgb(0,137,117);
-
+  
   text-align: center;
   padding: 10px;
   color : white;
@@ -278,12 +271,7 @@ footer {
 
 
 /*style aplikasi*/
-  #tabportfolio{
-      margin-top: 5%;
-      margin-bottom: 5%;
-      /*background: rgb(64,224,208);*/
-      background: #18BC9C;
-    }
+
     .foto_aplikasi{
       width: 350px;
       height: 220px;
@@ -400,6 +388,3 @@ footer {
     .buttonAbout {
       background-color: #18BC9C;
     }
-
-
-    /*....*/
