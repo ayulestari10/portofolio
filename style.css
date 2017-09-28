@@ -4,6 +4,7 @@ body
   overflow-x: hidden;
 }
 
+/* bentuk navbar */
 
 #mainnav 
 {
@@ -12,41 +13,59 @@ body
     border: none;
     background: transparent;
     padding: 20px 0;
-    -webkit-transition: padding .5s;
-    -moz-transition: padding .5s;
-    -ms-transition: padding .5s;
-    -o-transition: padding .5s;
-    transition: padding .5s;
+    -webkit-transition: all .5s ease-in-out;
+    -moz-transition: all .5s ease-in-out;
+    -ms-transition: all .5s ease-in-out;
+    -o-transition: all .5s ease-in-out;
+    transition: all .5s ease-in-out;
+    position: fixed;
 }
-#mainnav a:focus {
-    outline: none; 
-}
+
+/* bentuk navbar brand */
 #mainnav .navbar-brand {
-    font-size: 24px;
+    font-size: 26px;
+    color: white;
+    font-weight: bold;
+
+}
+
+/* saat navbar brand di hover */
+#mainnav .navbar-brand.active,#mainnav .navbar-brand:hover  
+{
     color: #FBC02D;
+}
 
-}
-#mainnav .navbar-brand.active, #mainnav .navbar-brand:active, #mainnav .navbar-brand:focus, #mainnav .navbar-brand:hover 
+/* saat navbar brand on click */
+#mainnav .navbar-brand:focus
 {
-    color: white; 
+     color : #18BC9C;
 }
+
+/* memberi jarak spasi pada navbar nav */
 #mainnav .navbar-nav {
-    letter-spacing: 1px; 
+    letter-spacing: 2px; 
 }
 
-#mainnav .navbar-nav li.nav-item a.nav-link 
+/* memberi warna dan ukuran pada item navbar */
+.navbar-nav li.nav-item a.nav-link 
 {
-    color: white; 
+    color: white;
+    font-weight: bold;
+    font-size : 16px;
 }
+/* menambahkan warna hover ketika mouse melewati/melihat item */
 #mainnav .navbar-nav li.nav-item a.nav-link:hover 
 {
-    background: white;
+    background: #FBC02D;
     outline: none; 
 }
-#mainnav .navbar-nav li.nav-item a.nav-link:active, #mainnav .navbar-nav li.nav-item a.nav-link:focus 
-{        
-    color: white; 
+/* menambahkan on click/focus pada item navbar */
+#mainnav .navbar-nav li.nav-item a.nav-link:focus 
+{
+    background: #18BC9C;
 }
+
+/* memberi warna pada item toggler */
 #mainnav .navbar-toggler {
     font-size: 14px;
     padding: 11px;
@@ -54,11 +73,15 @@ body
     color: white;
     border-color: white; 
 }
-#mainnav .navbar-toggler:focus, #mainnav .navbar-toggler:hover 
+
+#mainnav .navbar-toggler:hover 
 {
-      color: white;
-      background: transparent;
-      border-color: #FBC02D;
+      color: #FBC02D;
+}
+#mainnav .navbar-toggler:focus 
+{
+      color: #18BC9C;
+      border-color: white;
 }
 
 
@@ -88,13 +111,43 @@ body
 }
 
 .img-fluid {
-  max-width: 100%;
+  max-width: 250px;
   height: auto;
-  padding-top :190px;
-  width : 100px;
+  padding-top :220px;
+  width : 150px;
 }
 
+.garis
+{
+     border-color: white;
+     max-width: 450px;
+     margin: 3px auto 10px;
+     text-align: center;
+     /* border: none; */
+     /* border-top: solid 3px;  */
+}
 
+.garis
+{
+     max-width: 450px;
+     margin : 3px auto 10px;
+     border: 0px;
+     height: 30px;
+     border-style: solid;
+     border-color: white;
+     border-width: 1px 0 0 0;
+     border-radius: 20px; 
+}
+.garis:before{
+     display: block;
+     content: "";
+     height: 30px;
+     margin-top: -31px;
+     border-style: solid;
+     border-color: white;
+     border-width: 0 0 1px 0;
+     border-radius: 20px;
+}
 #profile-picture {
   padding-top: 10px;
   margin: 0 auto;
@@ -261,7 +314,7 @@ hr.star-primary:after {
 }
 
 footer {
-  background: rgb(0,137,117);
+  background: black;
   
   text-align: center;
   padding: 10px;
