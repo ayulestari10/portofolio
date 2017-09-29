@@ -28,7 +28,8 @@ body
 }
 #mainnav .navbar-brand.active, #mainnav .navbar-brand:active, #mainnav .navbar-brand:focus, #mainnav .navbar-brand:hover 
 {
-    color: white; 
+    color: #F7B100; 
+    background: transparent;
 }
 #mainnav .navbar-nav {
     letter-spacing: 1px; 
@@ -40,7 +41,8 @@ body
 }
 #mainnav .navbar-nav li.nav-item a.nav-link:hover 
 {
-    background: white;
+    /*background: white;*/
+    color: #FBC02D;
     outline: none; 
 }
 #mainnav .navbar-nav li.nav-item a.nav-link:active, #mainnav .navbar-nav li.nav-item a.nav-link:focus 
@@ -56,7 +58,7 @@ body
 }
 #mainnav .navbar-toggler:focus, #mainnav .navbar-toggler:hover 
 {
-      color: white;
+      color: #FBC02D;
       background: transparent;
       border-color: #FBC02D;
 }
@@ -64,7 +66,7 @@ body
 
 .txtdec
 {
-  font-size: 40px;
+  font-size: 60px;
   font-weight: 300;
   color : white;
   font-family: 'Roboto', sans-serif;
@@ -90,8 +92,8 @@ body
 .img-fluid {
   max-width: 100%;
   height: auto;
-  padding-top :190px;
-  width : 100px;
+  padding-top: 100px;
+  width : 120px;
 }
 
 
@@ -124,16 +126,16 @@ body
 }
 
 #tabcontact {
-  /* padding-top : 70px; */
+  padding-top : 70px; 
   background-size: cover;
   background-image: url(assets/img/logo/pattern1.png);
   height: 750px;
 }
-#tcontact
+/*#tcontact
 {
   font-size: 40px;
   font-weight: bold;
-}
+}*/
 
 #detail_profile {
   background-size: cover;
@@ -221,21 +223,20 @@ body
   
 }
 
-
 #contactform{
   align : middle;
 }
 
 hr.star-light,
 hr.star-primary {
-  max-width: 450px;
+  max-width: 65px;
   margin: 25px auto 30px;
   padding: 0;
   text-align: center;
   border: none;
   border-top: solid 3px; }
 
-hr.star-light:after,
+/*hr.star-light:after,
 hr.star-primary:after {
   font-family: FontAwesome;
   font-size: 2em;
@@ -243,22 +244,22 @@ hr.star-primary:after {
   top: -.8em;
   display: inline-block;
   padding: 0 0.25em;
-  content: '\f006'; }
+  content: '\f006'; }*/
 
 hr.star-light {
-  border-color: white; }
+  border-color: black; }
 
-hr.star-light:after {
+/*hr.star-light:after {
   color: white;
-  background-color: #18BC9C; }
+  background-color: #18BC9C; }*/
 
 hr.star-primary {
-  border-color: white; }
+  border-color: black; }
 
-hr.star-primary:after {
+/*hr.star-primary:after {
   color: #2C3E50;
   background-color: rgb(234,226,218);
-}
+}*/
 
 footer {
   background: rgb(0,137,117);
