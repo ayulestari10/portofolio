@@ -189,7 +189,7 @@ body
 #tabportfolio{
   padding-top : 70px;
   background-size: cover;
-  background-color: #18BC9C;
+  background-image: url(assets/img/logo/paris2.jpg)
 }
 
 #tabcontact {
