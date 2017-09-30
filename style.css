@@ -254,10 +254,11 @@ body
 
 .round-xlarge {
     background-color: #00AA99;
-    border-radius: 5px;
-    height: 20px;
+    border-radius: 20px;
+    height: 15px;
     margin-bottom: 0px;
     margin-left: 20px;
+    font-size: 10px;
 }
 
 .padding-icon {
