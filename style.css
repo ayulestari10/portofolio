@@ -38,12 +38,9 @@ body
 /* saat navbar brand on click */
 #mainnav .navbar-brand:focus
 {
-<<<<<<< HEAD
     color: #F7B100; 
     background: transparent;
-=======
      color : #18BC9C;
->>>>>>> 62608e2c5346070ab4c2d0227bf982426699d2c6
 }
 
 /* memberi jarak spasi pada navbar nav */
@@ -61,12 +58,9 @@ body
 /* menambahkan warna hover ketika mouse melewati/melihat item */
 #mainnav .navbar-nav li.nav-item a.nav-link:hover 
 {
-<<<<<<< HEAD
     /*background: white;*/
     color: #FBC02D;
-=======
     background: #FBC02D;
->>>>>>> 62608e2c5346070ab4c2d0227bf982426699d2c6
     outline: none; 
 }
 /* menambahkan on click/focus pada item navbar */
@@ -87,16 +81,13 @@ body
 #mainnav .navbar-toggler:hover 
 {
       color: #FBC02D;
-<<<<<<< HEAD
       background: transparent;
       border-color: #FBC02D;
-=======
 }
 #mainnav .navbar-toggler:focus 
 {
       color: #18BC9C;
       border-color: white;
->>>>>>> 62608e2c5346070ab4c2d0227bf982426699d2c6
 }
 
 
@@ -121,20 +112,17 @@ body
   text-align: center;
   background-image: url(assets/img/logo/Bg_hom.jpg);
   background-size: cover;
-  height: 850px;
-  padding : 100px 0 0 0;
+  height: 700px;
+  padding : 0px 0 0 0;
 }
 
 .img-fluid {
   max-width: 250px;
   height: auto;
-<<<<<<< HEAD
   padding-top: 100px;
   width : 120px;
-=======
   padding-top :220px;
   width : 150px;
->>>>>>> 62608e2c5346070ab4c2d0227bf982426699d2c6
 }
 
 .garis
