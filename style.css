@@ -38,7 +38,8 @@ body
 /* saat navbar brand on click */
 #mainnav .navbar-brand:focus
 {
-     color : #18BC9C;
+    color: #F7B100; 
+    background: transparent;
 }
 
 /* memberi jarak spasi pada navbar nav */
@@ -56,14 +57,15 @@ body
 /* menambahkan warna hover ketika mouse melewati/melihat item */
 #mainnav .navbar-nav li.nav-item a.nav-link:hover 
 {
-    background: #FBC02D;
+    color: #FBC02D; 
+    /*background: #FBC02D;*/
     outline: none; 
 }
 /* menambahkan on click/focus pada item navbar */
-#mainnav .navbar-nav li.nav-item a.nav-link:focus 
+/*#mainnav .navbar-nav li.nav-item a.nav-link:focus 
 {
     background: #18BC9C;
-}
+}*/
 
 /* memberi warna pada item toggler */
 #mainnav .navbar-toggler {
@@ -77,17 +79,22 @@ body
 #mainnav .navbar-toggler:hover 
 {
       color: #FBC02D;
+      background: transparent;
+      border-color: #FBC02D;
 }
 #mainnav .navbar-toggler:focus 
 {
-      color: #18BC9C;
-      border-color: white;
+      color: #FBC02D;
+      border-color: #FBC02D;
 }
 
-
+/*#mainnav .navbar-nav li.nav-item a.nav-link:active 
+{
+    background: white;
+}*/
 .txtdec
 {
-  font-size: 40px;
+  font-size: 60px;
   font-weight: 300;
   color : white;
   font-family: 'Roboto', sans-serif;
@@ -106,13 +113,15 @@ body
   text-align: center;
   background-image: url(assets/img/logo/Bg_hom.jpg);
   background-size: cover;
-  height: 850px;
-  padding : 100px 0 0 0;
+  height: 700px;
+  padding : 0px 0 0 0;
 }
 
 .img-fluid {
   max-width: 250px;
   height: auto;
+  padding-top: 100px;
+  width : 120px;
   padding-top :220px;
   width : 150px;
 }
@@ -148,6 +157,16 @@ body
      border-width: 0 0 1px 0;
      border-radius: 20px;
 }
+
+.garis2
+{
+  border : 0;
+  height: 2px;
+  background-image: linear-gradient(to right,rgba(0,0,0,0),rgba(0,0,0,0.75),rgba(0,0,0,0));
+  max-width: 300px;
+  /* margin: 25px auto 30px; */
+  /* padding: 0; */
+}
 #profile-picture {
   padding-top: 10px;
   margin: 0 auto;
@@ -157,36 +176,31 @@ body
   height: 150px;
   border-radius: 100%;
 }
-/* 
-#description {
-  padding-top: 30px;
-  padding-bottom: 30px;
-} */
-
 
 #tababout {
   background-size: cover;
-  background-image: url(assets/img/logo/pattern1.png);
+  background-color: white;
   padding-top : 70px;
-  padding-bottom: 40px;
 }
 #tabportfolio{
   padding-top : 70px;
+  /*padding-bottom: 40px;*/
   background-size: cover;
-  background-color: #18BC9C;
+  background-image: url(assets/img/logo/pattern1.png);
 }
 
 #tabcontact {
-  /* padding-top : 70px; */
+  padding-top : 70px; 
   background-size: cover;
-  background-image: url(assets/img/logo/pattern1.png);
+  background-color: white;
+  /*background-image: url(assets/img/logo/pattern1.png);*/
   height: 750px;
 }
-#tcontact
+/*#tcontact
 {
   font-size: 40px;
   font-weight: bold;
-}
+}*/
 
 #detail_profile {
   background-size: cover;
@@ -261,6 +275,38 @@ body
   padding-bottom: 20px;
 }
 
+.carousel {
+    margin-bottom: 0;
+    padding: 0 40px 30px 40px;
+}
+/* The controlsy */
+.carousel-control {
+  left: -12px;
+    height: 40px;
+  width: 40px;
+    background: none repeat scroll 0 0 #222222;
+    border: 4px solid #FFFFFF;
+    border-radius: 23px 23px 23px 23px;
+    margin-top: 90px;
+}
+.carousel-control.right {
+  right: -12px;
+}
+/* The indicators */
+.carousel-indicators {
+  right: 50%;
+  top: auto;
+  bottom: -10px;
+  margin-right: -19px;
+}
+/* The colour of the indicators */
+.carousel-indicators li {
+  background: #cecece;
+}
+.carousel-indicators .active {
+background: #428bca;
+}
+
 .form-group {
   margin-bottom: 1rem;
 }
@@ -274,48 +320,12 @@ body
   
 }
 
-
 #contactform{
   align : middle;
 }
 
-hr.star-light,
-hr.star-primary {
-  max-width: 450px;
-  margin: 25px auto 30px;
-  padding: 0;
-  text-align: center;
-  border: none;
-  border-top: solid 3px; }
-
-hr.star-light:after,
-hr.star-primary:after {
-  font-family: FontAwesome;
-  font-size: 2em;
-  position: relative;
-  top: -.8em;
-  display: inline-block;
-  padding: 0 0.25em;
-  content: '\f006'; }
-
-hr.star-light {
-  border-color: white; }
-
-hr.star-light:after {
-  color: white;
-  background-color: #18BC9C; }
-
-hr.star-primary {
-  border-color: white; }
-
-hr.star-primary:after {
-  color: #2C3E50;
-  background-color: rgb(234,226,218);
-}
-
 footer {
-  background: black;
-  
+  background: black; 
   text-align: center;
   padding: 10px;
   color : white;
@@ -439,5 +449,6 @@ footer {
     }
 
     .buttonAbout {
-      background-color: #18BC9C;
+      background-color: #FBC02D;
+      border: none;
     }
