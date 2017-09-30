@@ -62,10 +62,10 @@ body
     outline: none; 
 }
 /* menambahkan on click/focus pada item navbar */
-/*#mainnav .navbar-nav li.nav-item a.nav-link:focus 
+#mainnav .navbar-nav li.nav-item a.nav-link:focus 
 {
     background: #18BC9C;
-}*/
+}
 
 /* memberi warna pada item toggler */
 #mainnav .navbar-toggler {
@@ -84,21 +84,17 @@ body
 }
 #mainnav .navbar-toggler:focus 
 {
-      color: #FBC02D;
-      border-color: #FBC02D;
+      color: #18BC9C;
+      border-color: white;
 }
 
-<<<<<<< HEAD
+
 /* #mainnav .navbar-nav li.nav-item a.nav-link:active 
 {
     background: white;
 } */
-=======
-/*#mainnav .navbar-nav li.nav-item a.nav-link:active 
-{
-    background: white;
-}*/
->>>>>>> 2c436f43c35f246c141e7d99e53740365e564347
+
+
 .txtdec
 {
   font-size: 60px;
@@ -120,8 +116,8 @@ body
   text-align: center;
   background-image: url(assets/img/logo/Bg_hom.jpg);
   background-size: cover;
-  height: 700px;
-  padding : 0px 0 0 0;
+  height: 850px;
+  padding : 100px 0 0 0;
 }
 
 .img-fluid {
@@ -188,6 +184,7 @@ body
   background-size: cover;
   background-color: white;
   padding-top : 70px;
+  padding-bottom: 40px;
 }
 #tabportfolio{
   padding-top : 70px;
@@ -197,17 +194,17 @@ body
 }
 
 #tabcontact {
-  padding-top : 70px; 
+  padding-top : 50px; 
   background-size: cover;
   background-color: white;
   /*background-image: url(assets/img/logo/pattern1.png);*/
   height: 750px;
 }
-/*#tcontact
+#tcontact
 {
   font-size: 40px;
   font-weight: bold;
-}*/
+}
 
 #detail_profile {
   background-size: cover;
