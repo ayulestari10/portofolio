@@ -421,3 +421,9 @@ footer {
     .buttonAbout {
       background-color: #18BC9C;
     }
+
+    .carousel-inner > .item > img,
+  .carousel-inner > .item > a > img {
+      width: 70%;
+      margin: auto;
+  }
