@@ -91,10 +91,10 @@ body
       border-color: white;
 }
 
-#mainnav .navbar-nav li.nav-item a.nav-link:active 
+/* #mainnav .navbar-nav li.nav-item a.nav-link:active 
 {
     background: white;
-}
+} */
 .txtdec
 {
   font-size: 60px;
