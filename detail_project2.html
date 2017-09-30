@@ -8,15 +8,23 @@
 	<script type="text/javascript" src="assets/js/jquery.js"></script>
 	<script type="text/javascript" src="assets/js/bootstrap.js"></script>
 	<style type="text/css">
-
+		#bg {
+		  	position: fixed;
+		  	min-width: 100%;
+		  	min-height: 100%;
+			opacity: 0.6;}
+		.img-project {
+			min-width: 100%;
+		  	min-height: 100%;
+		}
 		section{
-		 padding: 60px 0;}
+		 padding: 30px 0;}
 			section h2.section-heading {
 			    font-size: 40px;
 			    margin-top: 0;
 			    margin-bottom: 15px;
 			    padding-top: 50px;
-	    		padding-bottom: 10px;}
+	    		padding-bottom: 10px; }
 			section h3.section-subheading {
 			    font-size: 16px;
 			    font-weight: 400;
@@ -25,7 +33,7 @@
 			    text-transform: none;
 			    padding-right: 130px;
     			padding-left: 130px;
-			    font-family: 'Droid Serif', 'Helvetica Neue', Helvetica, Arial, sans-serif;}
+			    font-family: 'Droid Serif', 'Helvetica Neue', Helvetica, Arial, sans-serif; }
 		.timeline {
 		  position: relative;
 		  padding: 0;
@@ -38,12 +46,12 @@
 			    width: 2px;
 			    margin-left: -1.5px;
 			    content: '';
-			    background-color: #f1f1f1;
+			    background-color: #a3a3a3;
 			    left: 50%;}
-		  .timeline > li {
-		    position: relative;
-		    min-height: 50px;
-		    margin-bottom: 50px; }
+		  	.timeline > li {
+			   	position: relative;
+			    min-height: 50px;
+			    margin-bottom: 50px; }
 		    .timeline > li:after, .timeline > li:before {
 		      display: table;
 		      content: ' '; }
@@ -74,9 +82,9 @@
 		      margin-left: 0;
 		      text-align: center;
 		      color: white;
-		      border: 7px solid #f1f1f1;
+		      border: 7px solid #c1c1c1;
 		      border-radius: 100%;
-		      background-color: #fed136; }
+		      background-color: #cccccc; }
 		      .timeline > li .timeline-image h4 {
 		        font-size: 10px;
 		        line-height: 14px;
@@ -164,6 +172,7 @@
 	</style>
 </head>
 <body>
+	<img src="assets/img/pattern1.png" id="bg">
 	<!-- About -->
     <section id="detail_project">
       <div class="container">
@@ -180,7 +189,7 @@
             <ul class="timeline">
               <li>
                 <div class="timeline-image">
-                  <img class="rounded-circle img-fluid" src="img/about/1.jpg" alt="">
+                  <img class="rounded-circle img-fluid img-project" src="assets/img/icon/fr.png" alt="">
                 </div>
                 <div class="timeline-panel">
                   <div class="timeline-heading">
@@ -197,7 +206,7 @@
               </li>
               <li class="timeline-inverted">
                 <div class="timeline-image">
-                  <img class="rounded-circle img-fluid" src="img/about/2.jpg" alt="">
+                  <img class="rounded-circle img-fluid img-project" src="assets/img/icon/nfr.png" alt="">
                 </div>
                 <div class="timeline-panel">
                   <div class="timeline-heading">
@@ -216,7 +225,7 @@
               </li>
               <li>
                 <div class="timeline-image">
-                  <img class="rounded-circle img-fluid" src="img/about/3.jpg" alt="">
+                  <img class="rounded-circle img-fluid img-project" src="assets/img/icon/ucd.png" alt="image_project">
                 </div>
                 <div class="timeline-panel">
                   <div class="timeline-heading">
@@ -233,7 +242,7 @@
               </li>
               <li class="timeline-inverted">
                 <div class="timeline-image">
-                  <img class="rounded-circle img-fluid" src="img/about/4.jpg" alt="">
+                  <img class="rounded-circle img-fluid img-project" src="assets/img/icon/erd.png" alt="">
                 </div>
                 <div class="timeline-panel">
                   <div class="timeline-heading">
@@ -246,9 +255,9 @@
               </li>
               <li class="timeline-inverted">
                 <div class="timeline-image">
-                  <h4>Be Part
-                    <br>Of Our
-                    <br>Story!</h4>
+                  <h4>Thanks !
+                    <br>The
+                    <br>end</h4>
                 </div>
               </li>
             </ul>
