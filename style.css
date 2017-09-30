@@ -38,12 +38,10 @@ body
 /* saat navbar brand on click */
 #mainnav .navbar-brand:focus
 {
-<<<<<<< HEAD
+
     color: #F7B100; 
     background: transparent;
-=======
      color : #18BC9C;
->>>>>>> 62608e2c5346070ab4c2d0227bf982426699d2c6
 }
 
 /* memberi jarak spasi pada navbar nav */
@@ -61,12 +59,9 @@ body
 /* menambahkan warna hover ketika mouse melewati/melihat item */
 #mainnav .navbar-nav li.nav-item a.nav-link:hover 
 {
-<<<<<<< HEAD
     /*background: white;*/
-    color: #FBC02D;
-=======
+    /* color: #FBC02D; */
     background: #FBC02D;
->>>>>>> 62608e2c5346070ab4c2d0227bf982426699d2c6
     outline: none; 
 }
 /* menambahkan on click/focus pada item navbar */
@@ -87,19 +82,19 @@ body
 #mainnav .navbar-toggler:hover 
 {
       color: #FBC02D;
-<<<<<<< HEAD
       background: transparent;
       border-color: #FBC02D;
-=======
 }
 #mainnav .navbar-toggler:focus 
 {
       color: #18BC9C;
       border-color: white;
->>>>>>> 62608e2c5346070ab4c2d0227bf982426699d2c6
 }
 
-
+#mainnav .navbar-nav li.nav-item a.nav-link:active 
+{
+    background: white;
+}
 .txtdec
 {
   font-size: 60px;
@@ -128,13 +123,10 @@ body
 .img-fluid {
   max-width: 250px;
   height: auto;
-<<<<<<< HEAD
   padding-top: 100px;
   width : 120px;
-=======
   padding-top :220px;
   width : 150px;
->>>>>>> 62608e2c5346070ab4c2d0227bf982426699d2c6
 }
 
 .garis
@@ -168,6 +160,16 @@ body
      border-width: 0 0 1px 0;
      border-radius: 20px;
 }
+
+.garis2
+{
+  border : 0;
+  height: 2px;
+  background-image: linear-gradient(to right,rgba(0,0,0,0),rgba(0,0,0,0.75),rgba(0,0,0,0));
+  max-width: 300px;
+  /* margin: 25px auto 30px; */
+  /* padding: 0; */
+}
 #profile-picture {
   padding-top: 10px;
   margin: 0 auto;
@@ -177,12 +179,6 @@ body
   height: 150px;
   border-radius: 100%;
 }
-/* 
-#description {
-  padding-top: 30px;
-  padding-bottom: 30px;
-} */
-
 
 #tababout {
   background-size: cover;
@@ -197,16 +193,16 @@ body
 }
 
 #tabcontact {
-  padding-top : 70px; 
+  padding-top : 50px; 
   background-size: cover;
   background-image: url(assets/img/logo/pattern1.png);
   height: 750px;
 }
-/*#tcontact
+#tcontact
 {
   font-size: 40px;
   font-weight: bold;
-}*/
+}
 
 #detail_profile {
   background-size: cover;
@@ -298,43 +294,8 @@ body
   align : middle;
 }
 
-hr.star-light,
-hr.star-primary {
-  max-width: 65px;
-  margin: 25px auto 30px;
-  padding: 0;
-  text-align: center;
-  border: none;
-  border-top: solid 3px; }
-
-/*hr.star-light:after,
-hr.star-primary:after {
-  font-family: FontAwesome;
-  font-size: 2em;
-  position: relative;
-  top: -.8em;
-  display: inline-block;
-  padding: 0 0.25em;
-  content: '\f006'; }*/
-
-hr.star-light {
-  border-color: black; }
-
-/*hr.star-light:after {
-  color: white;
-  background-color: #18BC9C; }*/
-
-hr.star-primary {
-  border-color: black; }
-
-/*hr.star-primary:after {
-  color: #2C3E50;
-  background-color: rgb(234,226,218);
-}*/
-
 footer {
-  background: black;
-  
+  background: black; 
   text-align: center;
   padding: 10px;
   color : white;
