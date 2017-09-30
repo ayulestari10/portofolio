@@ -38,8 +38,10 @@ body
 /* saat navbar brand on click */
 #mainnav .navbar-brand:focus
 {
+
     color: #F7B100; 
     background: transparent;
+     color : #18BC9C;
 }
 
 /* memberi jarak spasi pada navbar nav */
@@ -57,8 +59,9 @@ body
 /* menambahkan warna hover ketika mouse melewati/melihat item */
 #mainnav .navbar-nav li.nav-item a.nav-link:hover 
 {
-    color: #FBC02D; 
-    /*background: #FBC02D;*/
+    /*background: white;*/
+    /* color: #FBC02D; */
+    background: #FBC02D;
     outline: none; 
 }
 /* menambahkan on click/focus pada item navbar */
@@ -88,32 +91,10 @@ body
       border-color: white;
 }
 
-<<<<<<< HEAD
-
-=======
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
->>>>>>> 83ad74d4cdf5a6b2937635946994743463227651
->>>>>>> ddc7112339c6058f6484b07e653c48201694fcd0
 /* #mainnav .navbar-nav li.nav-item a.nav-link:active 
 {
     background: white;
 } */
-<<<<<<< HEAD
-
-
-=======
-<<<<<<< HEAD
-=======
-=======
-/*#mainnav .navbar-nav li.nav-item a.nav-link:active 
-{
-    background: white;
-}*/
->>>>>>> 2c436f43c35f246c141e7d99e53740365e564347
->>>>>>> 83ad74d4cdf5a6b2937635946994743463227651
->>>>>>> ddc7112339c6058f6484b07e653c48201694fcd0
 .txtdec
 {
   font-size: 60px;
@@ -201,22 +182,20 @@ body
 
 #tababout {
   background-size: cover;
-  background-color: white;
+  background-image: url(assets/img/logo/pattern1.png);
   padding-top : 70px;
   padding-bottom: 40px;
 }
 #tabportfolio{
   padding-top : 70px;
-  /*padding-bottom: 40px;*/
   background-size: cover;
-  background-image: url(assets/img/logo/pattern1.png);
+  background-color: #18BC9C;
 }
 
 #tabcontact {
   padding-top : 50px; 
   background-size: cover;
-  background-color: white;
-  /*background-image: url(assets/img/logo/pattern1.png);*/
+  background-image: url(assets/img/logo/pattern1.png);
   height: 750px;
 }
 #tcontact
@@ -277,11 +256,10 @@ body
 
 .round-xlarge {
     background-color: #00AA99;
-    border-radius: 20px;
-    height: 15px;
+    border-radius: 5px;
+    height: 20px;
     margin-bottom: 0px;
     margin-left: 20px;
-    font-size: 10px;
 }
 
 .padding-icon {
@@ -297,38 +275,6 @@ body
 
 .padding-img {
   padding-bottom: 20px;
-}
-
-.carousel {
-    margin-bottom: 0;
-    padding: 0 40px 30px 40px;
-}
-/* The controlsy */
-.carousel-control {
-  left: -12px;
-    height: 40px;
-  width: 40px;
-    background: none repeat scroll 0 0 #222222;
-    border: 4px solid #FFFFFF;
-    border-radius: 23px 23px 23px 23px;
-    margin-top: 90px;
-}
-.carousel-control.right {
-  right: -12px;
-}
-/* The indicators */
-.carousel-indicators {
-  right: 50%;
-  top: auto;
-  bottom: -10px;
-  margin-right: -19px;
-}
-/* The colour of the indicators */
-.carousel-indicators li {
-  background: #cecece;
-}
-.carousel-indicators .active {
-background: #428bca;
 }
 
 .form-group {
@@ -473,6 +419,5 @@ footer {
     }
 
     .buttonAbout {
-      background-color: #FBC02D;
-      border: none;
+      background-color: #18BC9C;
     }
