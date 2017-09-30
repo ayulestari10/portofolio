@@ -38,8 +38,10 @@ body
 /* saat navbar brand on click */
 #mainnav .navbar-brand:focus
 {
+
     color: #F7B100; 
     background: transparent;
+     color : #18BC9C;
 }
 
 /* memberi jarak spasi pada navbar nav */
@@ -57,15 +59,16 @@ body
 /* menambahkan warna hover ketika mouse melewati/melihat item */
 #mainnav .navbar-nav li.nav-item a.nav-link:hover 
 {
-    color: #FBC02D; 
-    /*background: #FBC02D;*/
+    /*background: white;*/
+    /* color: #FBC02D; */
+    background: #FBC02D;
     outline: none; 
 }
 /* menambahkan on click/focus pada item navbar */
-/*#mainnav .navbar-nav li.nav-item a.nav-link:focus 
+#mainnav .navbar-nav li.nav-item a.nav-link:focus 
 {
     background: #18BC9C;
-}*/
+}
 
 /* memberi warna pada item toggler */
 #mainnav .navbar-toggler {
@@ -84,14 +87,14 @@ body
 }
 #mainnav .navbar-toggler:focus 
 {
-      color: #FBC02D;
-      border-color: #FBC02D;
+      color: #18BC9C;
+      border-color: white;
 }
 
-/*#mainnav .navbar-nav li.nav-item a.nav-link:active 
+/* #mainnav .navbar-nav li.nav-item a.nav-link:active 
 {
     background: white;
-}*/
+} */
 .txtdec
 {
   font-size: 60px;
@@ -113,8 +116,8 @@ body
   text-align: center;
   background-image: url(assets/img/logo/Bg_hom.jpg);
   background-size: cover;
-  height: 700px;
-  padding : 0px 0 0 0;
+  height: 850px;
+  padding : 100px 0 0 0;
 }
 
 .img-fluid {
@@ -179,28 +182,27 @@ body
 
 #tababout {
   background-size: cover;
-  background-color: white;
+  background-image: url(assets/img/logo/pattern1.png);
   padding-top : 70px;
+  padding-bottom: 40px;
 }
 #tabportfolio{
   padding-top : 70px;
-  /*padding-bottom: 40px;*/
   background-size: cover;
-  background-image: url(assets/img/logo/pattern1.png);
+  background-color: #18BC9C;
 }
 
 #tabcontact {
-  padding-top : 70px; 
+  padding-top : 50px; 
   background-size: cover;
-  background-color: white;
-  /*background-image: url(assets/img/logo/pattern1.png);*/
+  background-image: url(assets/img/logo/pattern1.png);
   height: 750px;
 }
-/*#tcontact
+#tcontact
 {
   font-size: 40px;
   font-weight: bold;
-}*/
+}
 
 #detail_profile {
   background-size: cover;
@@ -273,38 +275,6 @@ body
 
 .padding-img {
   padding-bottom: 20px;
-}
-
-.carousel {
-    margin-bottom: 0;
-    padding: 0 40px 30px 40px;
-}
-/* The controlsy */
-.carousel-control {
-  left: -12px;
-    height: 40px;
-  width: 40px;
-    background: none repeat scroll 0 0 #222222;
-    border: 4px solid #FFFFFF;
-    border-radius: 23px 23px 23px 23px;
-    margin-top: 90px;
-}
-.carousel-control.right {
-  right: -12px;
-}
-/* The indicators */
-.carousel-indicators {
-  right: 50%;
-  top: auto;
-  bottom: -10px;
-  margin-right: -19px;
-}
-/* The colour of the indicators */
-.carousel-indicators li {
-  background: #cecece;
-}
-.carousel-indicators .active {
-background: #428bca;
 }
 
 .form-group {
@@ -449,6 +419,5 @@ footer {
     }
 
     .buttonAbout {
-      background-color: #FBC02D;
-      border: none;
+      background-color: #18BC9C;
     }
